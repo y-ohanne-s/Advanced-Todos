@@ -1,13 +1,11 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
-import './App.css';
+import React from "react";
+  import "./App.css";
+import Dashboard from "./pages/tasks/Dashboard/dashboard";
 
 function App() {
   return (
     <div className="App">
-     <Button>
-       btn
-     </Button>
+      <Dashboard />
     </div>
   );
 }
