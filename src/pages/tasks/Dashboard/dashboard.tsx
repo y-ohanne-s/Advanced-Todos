@@ -7,9 +7,9 @@ const Dashboard = () => {
       <Row>
         <Col className="profile-col">Profile</Col>
         <Col className="todo-list-col text-center" xs={8}>
-          Note List
+          Note List and Add Note
         </Col>
-        <Col className="add-todo-col">Add Note</Col>
+        <Col className="add-todo-col">Individual Note</Col>
       </Row>
     </Container>
   );
